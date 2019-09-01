@@ -10,25 +10,16 @@
 2. Install Keil uVision 5 and set it up   
    https://youtu.be/EX7g3_NUDgk
    
-SIM800C commands from terminal:
+# SIM800C commands from terminal:
 
 AT+CPIN?
 
-1. Dial the number(recieve move ASCII, tx mode with +CR): 
+1. Dial the number(recieve mode ASCII, tx mode with +CR):  
+ATD+38--5---49--; 
 
-ATD+380*****49**; 
-
-
-2. Send SMS-
-
-before check: 
-AT+CMGS=?
-if ERROR
-
-
-AT+CMGF=1;
-AT+CSCS="GSM";
-AT+CMGS="+38**5***49**";
- input text
-[]
-
+2. Send SMS  
+  AT+CMGF=1;  
+  AT+CSCS="GSM";  
+  AT+CMGS="+38--5---49--";  
+   input text  
+  []  

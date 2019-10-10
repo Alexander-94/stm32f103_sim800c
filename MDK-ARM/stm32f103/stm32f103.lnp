@@ -18,6 +18,7 @@
 "stm32f103\stm32f1xx_hal_flash_ex.o"
 "stm32f103\stm32f1xx_hal_exti.o"
 "stm32f103\system_stm32f1xx.o"
+"stm32f103\retarget_io.o"
 --library_type=microlib --strict --scatter "stm32f103\stm32f103.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
